@@ -1,0 +1,330 @@
+
+
+.title_ {
+	width: 70%;
+	margin: 0px auto 40px;
+}
+
+.title_ h1 {
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 1px #FCFAE1;
+}
+
+.gallery_ {
+	width: 90%;
+	margin: 0px auto;
+        padding: 0px;
+}
+
+.filter_ {
+    
+    margin-left: 20px;
+	
+}
+
+	.filter_ span {
+		padding: 0  0 0;
+		font-family: Georgia, cursive;
+		font-style: italic;
+	}
+
+	
+
+	
+
+.thumbnail_wrap_ {
+	position: relative;
+        
+        
+}
+
+
+
+.thum_div::before {
+    background-color: #000;
+    opacity: 0.5;
+    
+}
+
+.thum_div{
+    margin: 1px;
+    outline: 1px solid #eee;
+    border: 5px solid #fff;
+    overflow: hidden;
+    
+}
+a.thumbnail_ {
+	
+    position: absolute;    
+         
+}
+
+a.thumbnail_ img {
+	
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    vertical-align: top;
+    
+    
+    	
+}
+
+/*
+a.thumbnail_ img:hover {
+transform: scale(1.2);
+position: relative;
+background:rgba(0,0,0,.75);
+    
+
+}*/
+
+        
+.clear_floats {
+	clear: both;
+	line-height: 1px;
+}
+
+
+.fil::after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#FilerTab {
+    margin: 10px 5px 5px 0;
+    width: 100%;
+    padding: 10px;
+}
+.photos{padding-bottom: 35px}
+.photos a{box-shadow:none !important;border:none !important}
+.photos a:hover{box-shadow:none !important;}
+.sortLink {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333333;
+    float: left;
+    font-size: 12px;
+    margin: 0 12px 0 0;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+     margin: 0 10px 10px 0;
+}
+
+.sortLink {box-shadow:none !important;outline:none}
+.sortLink:hover{box-shadow:none !important;outline:none}
+
+.sortLink:hover {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    box-shadow: -2px 2px 5px 1px #a3a3a3;
+     margin: 0 10px 10px 0;
+}
+.sortLink.selected {
+    background-color: #e2e2e2;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #000;
+    cursor: default;
+    /*margin: 0 12px 0 0;*/
+    outline:none;
+}
+
+.img_caption_{
+    background: rgba(80, 80, 80, 0.75) none repeat scroll 0 0;
+    bottom: 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 0px;
+    padding: 4px;
+    position: absolute;
+    transition: all 500ms ease 0s;
+    width: 100%;
+    max-height: 55px;
+}
+
+/* Horizontal Media Queries */
+@media screen and (min-height: 50px) and (max-height: 520px) {
+	.title_ h1 {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-height: 521px) and (max-height: 700px) {
+	.title_ h1 {
+		font-size: 24px;
+	}
+}
+
+
+/* Vertical Media Queries */
+@media screen and (min-width: 50px) and (max-width: 500px) {
+	.title_ h1 {
+		font-size: 18px;
+	}
+
+	
+
+	.gallery_ {
+		width: auto;
+	}
+
+	.filter_ span {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.filter_ a {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 960px) {
+	.title_ h1 {
+		font-size: 24px;
+	}
+
+	.filter_ span {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	
+}
+
+@media screen and (min-width: 961px) {
+	.filter_ span {
+		padding-right: 20px;
+	}
+}
+
+.figure{
+  
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border: 5px solid #fff;
+  box-shadow: 0 0 5px #ddd;
+  margin: 1em;
+}
+
+.fig_caption{
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.fig_caption div{
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: 20px;
+  opacity: 0;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+
+.fig_caption div:after{
+  position: absolute;
+  content: "";
+  left: 0; right: 0;
+  bottom: 40%;
+  text-align: center;
+  margin: auto;
+  width: 0%;
+  height: 2px;
+  
+}
+
+.figure img{
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+
+
+.figure:hover img{
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
+
+.figure:hover .playbtnCss_zoom{display:block}
+.figure:hover .playbtnCss_link{display:block}
+.figure:hover .playbtnCss_video{display:block}
+.playbtnCss_zoom {
+    background: rgba(0,0,0,.40) url("../images/zoom.png") no-repeat scroll center center;
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.playbtnCss_link {
+    background: rgba(0,0,0,.40) url("../images/link.png") no-repeat scroll center center;
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.playbtnCss_video{
+    background: rgba(0,0,0,.40) url("../images/video.png") no-repeat scroll center center;
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+
+.page-numbers{padding:0px;margin:0px !important}
+.navigation_grid_p1{clear:both;padding-left:10px;padding-top: 20px}
+.div.navigation_grid_p1 ul { list-style:none; font-size:12px;padding:0px }
+div.navigation_grid_p1 ul.page-numbers  li{ display:inline; }
+div.navigation_grid_p1 ul.page-numbers li a{ display:block; float:left; padding:4px 9px; margin-right:7px; border:1px solid #efefef; }
+div.navigation_grid_p1 ul.page-numbers li span.current { display:block; float:left; padding:4px 9px; margin-right:7px; border:1px solid #efefef; background-color:#f5f5f5;  }
+div.navigation_grid_p1 ul.page-numbers li span.dots { display:block; float:left; padding:4px 9px; margin-right:7px;  }
+.overlay_grid{
+    
+    opacity: 0.76;
+    position: absolute;
+
+    z-index: 100;
+}
+
+.shield_cli {
+  position: absolute;
+  width: 100%;
+  left: 0; 
+  z-index: 100;
+  
+}

@@ -1,0 +1,23 @@
+.image_error{color:red ;}
+.succMsg{background:#E2F3DA  ;border: 1px solid #9ADF8F ;color:#556652  ;padding:8px 8px 8px 36px ;text-align:left ;margin:5px ;margin-left: 0px ;margin-top: 30px ;width:505px  ;}
+.errMsg{background:#FFCECE  ;border: 1px solid #DF8F8F ;color:#665252  ;padding:8px 8px 8px 36px ; text-align:left ;margin:5px ;margin-left: 0px ;margin-top: 30px ;width:505px  ;}
+#gridTbl{width: 100%;}
+.table{width:100%;margin-bottom:18px;}.table th,.table td{padding:8px;line-height:18px;text-align:left;vertical-align:top;border-top:1px solid #E1E1E1}
+.table th{font-weight:bold;}
+.table thead th{vertical-align:bottom;}
+.table thead:first-child tr th,.table thead:first-child tr td{border-top:0;}
+.table tbody+tbody{border-top:2px solid #ddd;}
+.table-condensed th,.table-condensed td{padding:4px 5px;background-color: #ffffff;}
+.table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapsed;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.table-bordered th+th,.table-bordered td+td,.table-bordered th+td,.table-bordered td+th{border-left:1px solid #E1E1E1;background-color: #ffffff;}
+.table-bordered thead:first-child tr:first-child th,.table-bordered tbody:first-child tr:first-child th,.table-bordered tbody:first-child tr:first-child td{border-top:0;}
+.table-bordered thead:first-child tr:first-child th:first-child,.table-bordered tbody:first-child tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+.table-bordered thead:first-child tr:first-child th:last-child,.table-bordered tbody:first-child tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+.table-bordered thead:last-child tr:last-child th:first-child,.table-bordered tbody:last-child tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+.table-bordered thead:last-child tr:last-child th:last-child,.table-bordered tbody:last-child tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.table-striped tbody tr:nth-child(odd) td,.table-striped tbody tr:nth-child(odd) th{background-color:#f9f9f9;}
+.table tbody tr:hover td,.table tbody tr:hover th{background-color:#f5f5f5;}
+.alignCenter{text-align: center;}
+#img_disp{border:1px solid #ccc;width:200px;height:200px }
+#img_disp_img{border:1px solid #ccc;width:200px;height:200px }
+#img_disp_link{border:1px solid #ccc;width:200px;height:200px }
+ 
